@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+input {
+  margin: 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 45%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.mainContainer {
+  width: 65%;
+  margin: 3rem auto;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.photo {
+  margin: 1rem;
+  width: 20%;
+}
