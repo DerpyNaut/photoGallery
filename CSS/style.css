@@ -27,11 +27,41 @@ input {
   width: 20%;
 }
 
-#imagelightbox
-{
-    position: fixed;
-    z-index: 9999;
+.lb-outerContainer {
+  background-color: rgba(0, 0, 0, 0);
+}
 
-    -ms-touch-action: none;
-    touch-action: none;
+.lightbox .lb-image {
+  margin: auto;
+  border: none;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.lb-data {
+  padding: 0;
+}
+
+ .lightbox {
+  height: 75%;
+  top: 15% !important;
+}
+
+.lb-dataContainer {
+  width: 35% !important;
+  margin: 5% auto 0 auto;
+}
+
+.lb-nav a.lb-next {
+  position: absolute;
+  margin-left: 45%;
+  right: auto;
+}
+
+.lb-nav a.lb-prev {
+  position: absolute;
+  margin-right: 45%;
+  left: auto;
 }
