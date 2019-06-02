@@ -56,12 +56,18 @@ input {
 
 .lb-nav a.lb-next {
   position: absolute;
-  margin-left: 45%;
-  right: auto;
+  right: -10%;
 }
 
 .lb-nav a.lb-prev {
   position: absolute;
-  margin-right: 45%;
-  left: auto;
+  left: -10%;
+}
+
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+    opacity: 0.2;
+}
+
+.lb-data .lb-number {
+    display: none !important;
 }
