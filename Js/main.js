@@ -16,8 +16,8 @@ $('input').on('keyup', function(event) {
   $('a').each(function (index, value) {
     var $title = $(this).attr('data-title');
     console.log($title);
-    if (($title).includes(($variable))) {
+    if (($title).includes($variable)) {
       $(this).show();
     }
-  })
-})
+  });
+});
